@@ -17,8 +17,11 @@
 
     </v-main>
 
-    <v-footer app style="padding:20px">
-      <Footer />
+    <v-footer app>
+      <v-container>
+        <Footer />
+      </v-container>
+
     </v-footer>
   </v-app>
 </template>

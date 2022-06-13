@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <v-flex xs6 sm5 lg12 xl5 md12>
+    <v-flex>
       <v-row>
         <div>
 
@@ -109,5 +109,9 @@ export default {
 }
 </script>
 
-<style>
+<style >
+.theme--dark.v-card {
+  background-color: #fff;
+  color: #000;
+}
 </style>
