@@ -68,7 +68,7 @@
           <v-col class="text-center">
 
 
-            <fa style="font-size:40px" :icon="['fa', 'home']" />
+            <fa style="font-size:40px" :icon="['fa', 'cat']" />
             <div>
               Pet Boarding
             </div>
@@ -93,7 +93,7 @@
           <v-col class="text-center">
 
 
-            <fa style="font-size:40px" :icon="['fa', 'home']" />
+            <fa style="font-size:40px" :icon="['fa', 'dog']" />
             <div>
               Pet Boarding
             </div>

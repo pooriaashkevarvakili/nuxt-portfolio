@@ -2,14 +2,15 @@
   <v-app dark>
 
     <v-app-bar fixed app>
-
+      <v-btn to="/" plain>login</v-btn>
       <v-btn to="/about" plain>about</v-btn>
       <v-btn to="/service" plain>services</v-btn>
-      <v-btn plain>team</v-btn>
-      <v-btn plain>contact</v-btn>
+      <v-btn to="/price" plain>price</v-btn>
+      <v-btn to="/blog" plain>blog</v-btn>
+
 
       <v-spacer />
-      <v-btn plain>register</v-btn>
+
     </v-app-bar>
     <v-main class="white">
 

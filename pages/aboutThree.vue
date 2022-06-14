@@ -12,24 +12,24 @@
                 <div class="ml-6">Special Care On Pets</div>
 
 
-                <div>
-                  <fa :icon="['fa', 'check-double']" />
+                <div class="ml-3">
+                  <fa :icon="['fa', 'check']" />
                   <span>Best In Industry</span>
                 </div>
                 <v-spacer />
-                <div>
-                  <fa :icon="['fa', 'check-double']" />
+                <div class="ml-3">
+                  <fa :icon="['fa', 'check']" />
                   <span>Emergency Services</span>
                 </div>
 
 
-                <div>
-                  <fa :icon="['fa', 'check-double']" />
+                <div class="ml-3">
+                  <fa :icon="['fa', 'check']" />
                   <span>Special Care</span>
                 </div>
                 <v-spacer />
-                <div class="mr-2">
-                  <fa :icon="['fa', 'check-double']" />
+                <div class="ml-2">
+                  <fa :icon="['fa', 'check']" />
                   <span>Customer Support</span>
                 </div>
 
