@@ -1,23 +1,15 @@
 <template>
   <div>
-
-
-
-
     <v-col class="black--text text-center mt-6">
       <div>Services</div>
       <div>
         Premium Pet Services
       </div>
-
     </v-col>
     <v-row>
       <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-
         <v-card>
           <v-col class="text-center">
-
-
             <fa style="font-size:40px" :icon="['fa', 'home']" />
             <div>
               Pet Boarding
@@ -88,11 +80,8 @@
         </v-card>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-
         <v-card>
           <v-col class="text-center">
-
-
             <fa style="font-size:40px" :icon="['fa', 'dog']" />
             <div>
               Pet Boarding
@@ -119,7 +108,11 @@
 
 <script>
 export default {
-
+  head() {
+    return {
+      title: 'service'
+    }
+  }
 }
 </script>
 

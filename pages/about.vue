@@ -13,6 +13,11 @@ import AboutThree from "./aboutThree.vue"
 import AboutTwo from "./aboutTwo.vue"
 export default {
   components: { AboutOne, AboutTwo, AboutThree },
+  head() {
+    return {
+      title: 'about'
+    }
+  }
 }
 </script>
 <style >

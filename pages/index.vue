@@ -52,6 +52,11 @@ export default {
       }
     }
   },
+  head() {
+    return {
+      title: 'login'
+    }
+  },
   methods: {
     login() {
       if (this.user === 'admin' && this.password === 'admin') {

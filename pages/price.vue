@@ -162,7 +162,11 @@
 
 <script>
 export default {
-
+  head() {
+    return {
+      title: 'price'
+    }
+  }
 }
 </script>
 

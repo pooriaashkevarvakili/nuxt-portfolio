@@ -20,18 +20,10 @@
               <v-row>
                 <div>
                   <p>PetLover</p>
-                  <v-row>
-                    Ipsum amet sed vero et lorem stet eos ut, labore
+                  <v-row v-for="item in task" :key="item.id">
+                    {{ item.name }}
                   </v-row>
-                  <v-row>
-                    sed sed stet sea est ipsum ut. Volup amet ea
-                  </v-row>
-                  <v-row>
-                    sanct ipsum, dolore vero lorem no duo eirmod.
-                  </v-row>
-
                 </div>
-
                 <v-spacer />
                 <div class="get">
                   <p>Get In Touch</p>
@@ -127,12 +119,18 @@
   </v-app>
 </template>
 <script>
+import { mapState } from "vuex"
 import Footer from "../pages/footer.vue"
 export default {
   name: 'DefaultLayout',
   components: {
     Footer
   },
+  computed: {
+    ...mapState({
+      task: state => state.task
+    })
+  }
 }
 </script>
 <style scoped>
