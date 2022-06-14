@@ -4,7 +4,7 @@
     <v-app-bar fixed app>
 
       <v-btn to="/about" plain>about</v-btn>
-      <v-btn plain>services</v-btn>
+      <v-btn to="/service" plain>services</v-btn>
       <v-btn plain>team</v-btn>
       <v-btn plain>contact</v-btn>
 
@@ -18,9 +18,9 @@
     </v-main>
 
     <v-footer app>
-      <v-container>
-        <Footer />
-      </v-container>
+
+      <Footer />
+
 
     </v-footer>
   </v-app>
